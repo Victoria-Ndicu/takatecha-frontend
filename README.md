@@ -5,7 +5,7 @@ Backend: Oracle ORDS REST APIs on OCI Autonomous Database.
 
 ## Set up (one time)
 1. Install Flutter and Android Studio (for the Android SDK). Run `flutter doctor` until Android is ticked.
-2. Unzip this folder and open a terminal inside it (the folder with `pubspec.yaml`).
+2. Unzip this folder and open a terminal inside it (the folder with `pubspec.yaml`)..
 3. Run:
    ```
    dart tool/setup.dart
