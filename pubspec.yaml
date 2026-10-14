@@ -1,0 +1,42 @@
+name: takatecha_ecopoints
+description: Taka Techa EcoPoints - scan PET bottles, earn rewards.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  mobile_scanner: ^6.0.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_native_splash: ^2.4.1
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+# Native Android splash screen = your logo on black
+# Run: dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#000000"
+  image: assets/logo.png
+  android_12:
+    color: "#000000"
+    image: assets/logo.png
+
+# App icon = your logo
+# Run: dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/logo.png"
